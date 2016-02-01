@@ -1,0 +1,27 @@
+{
+    "name": "hilabs/one-auth",
+    "description": "Single sign on",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shandy Hermawan",
+            "email": "hello@sandihermawan.link",
+            "homepage": "http://sandihermawan.link",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0",
+        "illuminate/support": "5.*",
+        "illuminate/contracts": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hilabs\\OneAuth\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
